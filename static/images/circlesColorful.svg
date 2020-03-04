@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="389.53" height="643.109" viewBox="0 0 389.53 643.109">
+  <g id="undraw_fitting_pieces_cli3" transform="translate(0 0)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="119" cy="118.5" rx="119" ry="118.5" transform="translate(0 294.851)" fill="#f2f2f2"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="119" cy="118.5" rx="119" ry="118.5" transform="translate(19 276.851)" fill="#f75757"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="104" height="105" transform="translate(56 68.851)" fill="#f2f2f2"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="104" height="105" transform="translate(71 52.851)" fill="#f7d857"/>
+    <path id="Path_1" data-name="Path 1" d="M410.779,249.811H273.865V112.9H410.779Zm-134.986-1.928H408.85V114.825H275.793Z" transform="translate(-185.16 -112.897)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="26" height="27" transform="translate(291 264.851)" fill="#f2f2f2"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="26" height="28" transform="translate(296 257.851)"/>
+    <path id="Path_2" data-name="Path 2" d="M542.217,397.249H497.865V352.9h44.352Zm-42.424-1.928h40.5v-40.5h-40.5Z" transform="translate(-193.184 -121.494)" fill="#f7d857"/>
+    <path id="Path_3" data-name="Path 3" d="M427.385,768.937c-81.343,0-147.52-66.177-147.52-147.52S346.042,473.9,427.385,473.9,574.9,540.074,574.9,621.417,508.727,768.937,427.385,768.937Zm0-293.111c-80.279,0-145.591,65.312-145.591,145.591s65.312,145.591,145.591,145.591S572.976,701.7,572.976,621.417,507.665,475.825,427.385,475.825Z" transform="translate(-185.375 -125.828)"/>
+  </g>
+</svg>

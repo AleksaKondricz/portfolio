@@ -1,0 +1,43 @@
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    min-width: 250px;
+    padding: 1rem;
+    padding-bottom: .5rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #fcb042;
+    transition: 300ms all ease-in-out;
+}
+.error{
+    color:red;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 4px;
+}
+@media only screen and (max-width: 600px) {
+    input{
+        min-width: fit-content;
+        margin-bottom: 16px;
+    }
+    label{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    input{
+        min-width: 33%;
+        margin: 0 12px;
+    }
+}

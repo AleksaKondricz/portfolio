@@ -1,0 +1,44 @@
+footer{
+    background-color: #262324;
+    
+}
+.innerFooterBox{
+    width: 90%;
+    margin: auto;
+    padding: 36px 0;
+    height: 100%;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerFooterBox > p{
+    font-size: .7rem;
+    text-align: left;
+ 
+}
+.socialMediaNav{
+    background-color: transparent;
+    display: flex;
+
+}
+#socialMediaIcon{
+    cursor: pointer;
+    filter: invert(1);
+    margin: 0 4px;
+    box-shadow: none;
+}
+#socialMediaIcon > img{
+    width: 62%;
+}
+@media only screen and (max-width: 600px) {
+    .innerFooterBox{
+        flex-direction: column-reverse;
+    }
+    .socialMediaNav{
+        align-items: center;
+        justify-content: center;
+    }
+}

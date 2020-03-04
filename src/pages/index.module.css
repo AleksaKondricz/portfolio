@@ -1,0 +1,375 @@
+.mainPageWrapper{
+    min-height: calc(100vh - 4rem);
+    height: 100%;
+
+}
+.mainPageWrapper > svg{
+    min-height: 30vh;
+}
+.decorativeDiv{
+    background-color: #fcb042;
+    min-height: 60vh;
+}
+.heroTitle{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: calc(3rem + 2vw);
+    width: 97%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 36vh;
+    padding-left: 20px;
+}
+.heroTitle > mark{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0 100px 100px 0;
+    padding: 0 20px;
+    padding-right: 30px;
+    
+}
+.aboutSection{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    min-height: 80vh;
+    padding-bottom: 20vh;
+    position: relative;
+}
+.aboutContent{
+    width: 40%;
+}
+.aboutContent > h2{
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.aboutContent > p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+.aboutSection > img{
+    z-index: 99;
+    width: 30%;
+    margin-right: -160px;
+}
+.techSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+}
+.techSection > p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    padding: 96px 0;
+    padding-bottom: 16px;
+}
+.techImage{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+.techImage > img{
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px lightgray)
+
+}
+.projectsSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 60px 0;
+}
+.cardNav{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid lightgray;
+    padding-right: 10%;
+    padding-bottom: 70px;
+}
+.cardContentWindow{
+    width: 60%;
+    padding: 100px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+   
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.inputsArea{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.visibleCard{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+
+ 
+}
+
+.visibleCard > h3{
+    font-family: 'Cinzel', serif;
+    font-size: calc(.9rem + 1vw);
+    font-weight: 1000;
+    text-align: center;
+}
+.visibleCard > h6{
+    font-size: calc(.8rem + .9vw);
+    font-weight: 1000;
+    margin-bottom: 10px;
+
+}
+.visibleCard > p{
+    font-size: 1.1rem;
+    max-width: 50ch;
+    text-align: justify;
+}
+#projectUrl{
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #D83030;
+    box-shadow: none;
+}
+.visibleCard > h3 > mark {
+    color: inherit;
+    padding: 10px;
+     padding-left: 50px; 
+    background-color: transparent;
+    border-radius: 30px 0 0 30px;
+    background-image: linear-gradient(120deg,#fcb042 0,rgba(255,193,7,.4) 100%);
+    background-repeat: no-repeat;
+    background-size: 0 .3em;
+    background-position: left;
+    position: relative;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    background-size: 66% 3.3em;
+
+}
+.cardNavMobile{
+    display: none;
+}
+.errorMessage{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    color: #d83030;
+    font-weight: 800;
+}
+
+/*Mobile Phones*/
+
+@media only screen and (max-width: 600px) {
+    .heroTitle {
+    font-size: calc(3rem + 2vw);
+    max-width: 7ch;
+    text-align: left;
+    top: 24vh;
+    
+    }
+    .mainPageWrapper > svg{
+        min-height: 9vh;
+    }
+    .aboutSection{
+        width: 90%;
+        margin: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutContent{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutContent > h2{
+        margin-top: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .aboutContent > p{
+        font-size: .9rem;
+        text-align: justify;
+    }
+    .aboutSection > img{
+        margin-right: 0;
+        width: 50%;
+        z-index: -999;
+        transform: rotate(90deg);
+    }
+    .projectsSection{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+    .cardNav{
+       display: none;
+    }
+    .inputsArea{
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .cardContentWindow{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+     .techSection{
+         width: 90%;
+         margin: auto;
+        align-items: center;
+        padding: 50px 0;
+         min-height: 80vh;
+         justify-content: center;
+     }
+    .techSection > p{
+        text-align: justify;
+        font-size: .9rem;
+        padding: 0;
+        padding-bottom: 10px;
+        width: 90%;
+    }
+    .techImage{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .visibleCard > p{
+        font-size: .9rem;
+    }
+    .visibleCard > h6{
+        font-size: calc(.8rem + .6vw)
+    }
+    .visibleCard > h3 >  mark{
+        padding-left: 20px;
+        background-size: 62% ;
+    }
+    .decorativeDiv{
+        min-height: 86vh;
+    }
+    .mainPageWrapper > svg{
+        margin-bottom: 50px;
+    }
+    .cardNavMobile{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contactSection{
+        padding: 20px 0;
+    }
+  }
+  
+  /*Ipads*/
+
+  @media only screen and (min-device-width: 760px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .decorativeDiv{
+        min-height: 80vh;
+    }
+    .mainPageWrapper > svg{
+        min-height: 14vh;
+    }
+    .heroTitle{
+        font-size: calc(5.5rem + 2vw);
+        width: fit-content;
+        left: 20%;
+        top: 17vh;
+        text-align: left;
+        max-width: 7ch;
+    }
+    .aboutSection{
+        width: 86%;
+       padding-bottom: 0;
+       padding-top: 10vh;
+    }
+    .aboutContent > p{
+        font-size: 1rem;
+    }
+    .heroTitle > mark{
+       padding-left: 40px;
+       margin-left: -40px;
+        border-radius: 100px 0 0 100px ;
+    }
+    .techSection{
+        width: 80%;
+        min-height: 80vh;
+        align-items: center;
+    }
+    .techImage{
+        width: 80%;
+    }
+    .techSection > p{
+        font-size: 1rem;
+    }
+    .projectsSection{
+        width: 86%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cardNav{
+        width: fit-content;
+        border: none;
+        flex-direction: row;
+        border-bottom: 1px solid lightgray;
+        padding:0;
+        padding-bottom: 100px;
+        justify-content: space-between;
+    }
+    .cardContentWindow{
+        width: 70%;
+        padding: 0;
+        padding-top: 100px;
+        
+    }
+    .inputsArea{
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .contactSection{
+        padding: 0;
+        min-height: 80vh;
+    }
+  }
+ 

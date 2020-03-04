@@ -1,0 +1,14 @@
+.divider{
+    height: 1px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.divider > h3{
+    font-family: 'Cinzel', serif;
+    background-color: #fff;
+    padding: 0 33px;
+}
