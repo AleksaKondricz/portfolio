@@ -11,11 +11,11 @@ const Header = () => {
   const [mobileMenu, toggleMobileMenu] = useState(false)
 
   const listenScrollEvent = () => {
-    if (window.pageYOffset > 1000) {
+    if (window.pageYOffset >= 100) {
       const scrolled = setHeaderClass( 'headerScrolled')
       return JSON.stringify(scrolled)
     } 
-    if(window.pageYOffset < 1000) {
+    if(window.pageYOffset < 100) {
       const scrolledBack = setHeaderClass( 'headerTop')
       return JSON.stringify(scrolledBack)
     }
@@ -31,9 +31,9 @@ return(
         <ul>
           {linksData.map(l => (<li><Link
                 key={l.id}
-                id={styles.mobLink}
+                className={styles.mobLink}
                 activeClass="active"
-                to={l.sectionId}
+                to={l.id}
                 spy={true}
                 smooth={true}
                 offset={-180}
@@ -53,7 +53,7 @@ return(
                 key={l.id}
                 className={styles.Link}
                 activeClass="active"
-                to={l.sectionId}
+                to={l.id}
                 spy={true}
                 smooth={true}
                 offset={-100}

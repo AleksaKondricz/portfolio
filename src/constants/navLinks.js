@@ -1,20 +1,18 @@
 export default [
-    {id: 0,
-     label: 'home',
-     sectionId: 'home'
-     
+    {id: 'home',
+     label: 'home'   
     },
-    {id: 1,
-    label: 'about',
-    sectionId: 'about'},
+    {id: 'about',
+    label: 'about'
+    },
     
-    {id: 2,
-    label: 'technologies',
-    sectionId: 'technologies'},
-    {id: 3,
+    {id: 'technologies',
+    label: 'technologies'
+   },
+    {id: 'projects',
     label: 'projects',
-    sectionId: 'projects'},
-    {id: 4,
+  },
+    {id: 'contact',
     label: 'contact',
-    sectionId: 'contact'},
+ },
     ]
