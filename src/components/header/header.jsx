@@ -36,7 +36,7 @@ return(
                 to={l.id}
                 spy={true}
                 smooth={true}
-                offset={-180}
+                offset={0}
                 duration= {500}> {l.label}</Link></li>))}
         </ul>
     </header>
@@ -56,7 +56,7 @@ return(
                 to={l.id}
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={0}
                 duration= {500}> {l.label}
             </Link>
           </li>))}
