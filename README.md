@@ -41,7 +41,7 @@ Install the related dependencies
 npm install
 ```
 
-## Running in development
+## 💻 Running in development
 
 Run in dev with hot-reload. Useful when defining the product page templates.
 
@@ -49,7 +49,7 @@ Run in dev with hot-reload. Useful when defining the product page templates.
 npm run dev
 ```
 
-## Running a build
+## 🔨 Running a build
 
 ```
 npm run build
@@ -61,7 +61,7 @@ npm run serve
 
 Run serve after the build. This is the built version. This is what will be served for the users. It may differ from `npm run dev` please, always test your changes in this way too.
 
-## Linting
+## 👓 Linting
 
 Use ESLINT config in the root. How You lint is optional, I can recommend lint on save functionality in VSC.
 
@@ -71,7 +71,7 @@ We are using EsLINT + prettier combo. Set up AUTOSAVE in Visual Studio Code:
 
 `File > Preferences > Settings > Extensions > ESLint > Auto Fix On Save` please have it turned on
 
-## Built With
+## 🧰 Built With
 
 - [React](https://reactjs.org/) - Writing front-end components
 - [Gatsby](https://www.gatsbyjs.org/) - Static site generator
