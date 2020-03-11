@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 
 const imageQuery = graphql`
   query {
-    images: allFile(filter: { extension: { regex: "/jpeg|jpg|png/" } }) {
+    images: allFile(filter: { extension: { regex: "/jpeg|jpg|png|webp/" } }) {
       edges {
         node {
           extension

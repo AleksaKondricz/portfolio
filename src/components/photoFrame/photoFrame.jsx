@@ -7,7 +7,7 @@ const PhotoFrame = () => {
     return (
         <>
         <figure className={ styles.frame }>
-            <OptImage className={styles.portraitImage} imageKey="aleksaKondricz.jpg" alt='Developer portrait'/>
+            <OptImage className={styles.portraitImage} imageKey="aleksaKondricz.webp" alt='Developer portrait'/>
         </figure>
         <div className={styles.darkCircle}></div>
         </>
