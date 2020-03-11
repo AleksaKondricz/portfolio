@@ -123,68 +123,7 @@
    
 }
 
-.contactForm{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    align-items: center;
-}
-.inputsArea{
-    display: flex;
-    width: 50%;
-    margin: auto;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
-.visibleCard{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Raleway', sans-serif;
 
- 
-}
-
-.visibleCard > h3{
-    font-family: 'Cinzel', serif;
-    font-size: calc(.9rem + 1vw);
-    font-weight: 1000;
-    text-align: center;
-}
-.visibleCard > h6{
-    font-size: calc(.8rem + .9vw);
-    font-weight: 1000;
-    margin-bottom: 10px;
-
-}
-.visibleCard > p{
-    font-size: 1.1rem;
-    max-width: 50ch;
-    text-align: justify;
-}
-#projectUrl{
-    font-size: 1.1rem;
-    font-weight: 800;
-    text-decoration: none;
-    color: #D83030;
-    box-shadow: none;
-}
-.visibleCard > h3 > mark {
-    color: inherit;
-    padding: 10px;
-     padding-left: 50px; 
-    background-color: transparent;
-    border-radius: 30px 0 0 30px;
-    background-image: linear-gradient(120deg,#fcb042 0,rgba(255,193,7,.4) 100%);
-    background-repeat: no-repeat;
-    background-size: 0 .3em;
-    background-position: left;
-    position: relative;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    background-size: 66% 3.3em;
-
-}
 .cardNavMobile{
     display: none;
 }
@@ -244,11 +183,7 @@
     .cardNav{
        display: none;
     }
-    .inputsArea{
-        flex-direction: column;
-        width: 90%;
-        margin-bottom: 50px;
-    }
+
     .cardContentWindow{
         width: 90%;
         margin: auto;
@@ -273,16 +208,7 @@
         width: 90%;
         margin: 50px auto;
     }
-    .visibleCard > p{
-        font-size: .9rem;
-    }
-    .visibleCard > h6{
-        font-size: calc(.8rem + .6vw)
-    }
-    .visibleCard > h3 >  mark{
-        padding-left: 20px;
-        background-size: 62% ;
-    }
+ 
     .decorativeDiv{
         min-height: 86vh;
     }
@@ -361,11 +287,6 @@
         padding: 0;
         padding-top: 100px;
         
-    }
-    .inputsArea{
-        width: 80%;
-        justify-content: space-between;
-        margin-bottom: 50px;
     }
     .contactSection{
         padding: 0;

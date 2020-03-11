@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './divider.module.css'
 
 const Divider = ({label}) => {
@@ -7,5 +8,13 @@ const Divider = ({label}) => {
       <h3>{label}</h3>
     </div>  );
 }
- 
+
+Divider.propTypes = {
+  label: PropTypes.string
+}
+
+Divider.defaultProps = {
+  label: ''
+}
+
 export default Divider;

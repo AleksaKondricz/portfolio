@@ -1,0 +1,42 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.inputsArea{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.errorMessage{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    color: #d83030;
+    font-weight: 800;
+}
+
+/*Mobile Phones*/
+
+@media only screen and (max-width: 600px) {
+    .inputsArea{
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
+
+  /*Ipads*/
+
+  @media only screen and (min-device-width: 760px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .inputsArea{
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+}

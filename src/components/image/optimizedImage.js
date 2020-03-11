@@ -28,7 +28,7 @@ const OptImage = ({ imageKey, ...rest }) => (
       const selectedImage = data.images.edges.find(
         img => img.node.relativePath === imageKey
       )
-      console.log(selectedImage.node.childImageSharp.fluid)
+
       return <Img fluid={selectedImage.node.childImageSharp.fluid} {...rest} />
     }}
   />

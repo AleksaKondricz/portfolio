@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import {Link, animateScroll as scroll} from 'react-scroll';
+
+import {Link} from 'react-scroll';
 import Slide from 'react-reveal/Slide';
 
 import linksData from '../../constants/navLinks'
