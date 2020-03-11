@@ -7,4 +7,5 @@ export {default as Card} from './card/card'
 export {default as TextInput} from './textInput/textInput'
 export {default as TextArea} from './textArea/textArea'
 export {default as NavSlider} from './navSlider/navSlider'
+export {default as OptImage} from './image/optimizedImage'
 

@@ -8,7 +8,7 @@ import projectData from '../constants/projectsData';
 import projectFullContent from '../constants/projectsFullContent';
 import styles from './index.module.css';
 import PhotoFrame from "../components/photoFrame/photoFrame";
-import { Divider, Card, TextInput, TextArea, Button, NavSlider} from "../components/components";
+import { Divider, Card, TextInput, TextArea, Button, NavSlider, OptImage} from "../components/components";
 
 
 const EMAIL_REGEXP = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
@@ -70,7 +70,7 @@ Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulp
            
             <Fade bottom>
             <div className={styles.techImage}>
-                <img src='images/barchart.svg'/>
+                <img src='images/barchart.svg' alt='Barchart of tech stack'/>
             </div>
             </Fade>
         </section>

@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './photoFrame.module.css'
 
+import {OptImage} from '../components'
+
 const PhotoFrame = () => {
     return (
         <>
         <figure className={ styles.frame }>
-            <img src='images/aleksaKondricz.jpg'/>
+            <OptImage className={styles.portraitImage} imageKey="aleksaKondricz.jpg" alt='Developer portrait'/>
         </figure>
         <div className={styles.darkCircle}></div>
         </>
