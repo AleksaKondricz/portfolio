@@ -69,28 +69,9 @@ const renderTechnology = () => {
     )
 }
 
-const renderContact = () => {
+const renderProjects = (cardSelected, setCardSelected) => {
     return(
         <>
-        <Fade bottom>
-        <Divider label='Contact' />
-        <section className={styles.contactSection} id='contact'>
-            <Form/>
-        </section>
-        </Fade>
-        </>
-    )
-}
-
-const IndexPage = () => {
-    const [cardSelected, setCardSelected] = useState(0)
-    return(
-    <Layout>
-        <main className={styles.mainPageWrapper}>
-         {renderHero()}
-         {renderAbout()}
-         {renderTechnology()}
-         <>
          <Divider label='Projects'/>
         <section className={styles.projectsSection} id='projects'>
             <Fade left>
@@ -114,6 +95,31 @@ const IndexPage = () => {
            </Fade>
         </section>
          </>
+    )
+}
+
+const renderContact = () => {
+    return(
+        <>
+        <Fade bottom>
+        <Divider label='Contact' />
+        <section className={styles.contactSection} id='contact'>
+            <Form/>
+        </section>
+        </Fade>
+        </>
+    )
+}
+
+const IndexPage = () => {
+    const [cardSelected, setCardSelected] = useState(0)
+    return(
+    <Layout>
+        <main className={styles.mainPageWrapper}>
+         {renderHero()}
+         {renderAbout()}
+         {renderTechnology()}
+         {renderProjects(cardSelected, setCardSelected)}
          {renderContact()}
         </main>
     </Layout>)
